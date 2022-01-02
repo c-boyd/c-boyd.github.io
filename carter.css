@@ -102,3 +102,31 @@ body {
 }
 
 
+
+/* PHOTO CONTENT */
+
+
+.photo {
+  margin-left: 450px;
+  margin-right: 850px;
+  margin-top: 50px;
+  padding-left: 20px;
+  width: 950px;
+  background-color: #0a1010;
+}
+
+
+.photo h1 {
+  font: italic 14px helvetica;
+  color: whitesmoke;
+  letter-spacing: 3px;
+}
+
+.photo p {
+  font-family: courier new;
+  line-height: 32px;
+  color: #0a1010;
+  letter-spacing: 1px;
+}
+
+

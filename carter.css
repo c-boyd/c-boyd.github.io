@@ -69,11 +69,10 @@ body {
   letter-spacing: 2px;
 }
 
-.content h3 {
+.content t1 {
   font: bold 16px helvetica;
-  color: #0a1010;
-  margin-left: 4px;
-  letter-spacing: 2px;
+  color: whitesmoke;
+  letter-spacing: 4px;
 }
 
 .content p {
@@ -101,6 +100,23 @@ body {
   color: lightslategrey;
 }
 
+table, th, td {
+  border: 30px solid whitesmoke;
+  border-collapse: collapse;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+th, td {
+  background-color: #0a1010;
+  text-align: center;
+}
+
+tr:hover, td:hover {
+  background-color: #333333;
+}
 
 
 /* PHOTO CONTENT */

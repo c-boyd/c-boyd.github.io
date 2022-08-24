@@ -1,0 +1,109 @@
+/* TOP NAV MENU */
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #687671;
+  overflow: hidden;
+}
+
+/* Topnav header style */
+.topnav h1 {
+  float: left;
+  margin: 1%;
+  letter-spacing: 5;
+font-family: trade-gothic-next, sans-serif;
+  font-weight: bold;
+  font-size: calc(32px + 0.75vw)
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  margin: 1%;
+  display: block;
+  color: #181818;
+  text-align: center;
+  padding: 14px 5%;
+  text-decoration: none;
+  font-family: COURIER;
+  font-size: calc(16px + .5vw);
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e1dccc;
+  color: #181818;
+}
+
+/* Collapse topnav on small screen */
+
+@media screen and (max-width: 700px) {
+
+.topnav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 15px;
+  }
+
+.topnav a {
+    text-align: center;
+    float: none;
+  }
+
+  .topnav h1 {
+      text-align: center;
+      float: none;
+    }
+}
+
+
+/* BODY */
+
+body {
+margin: auto;
+  background-color: #687671;
+}
+
+div.content {
+  width: 70%;
+  max-width: 1000px;
+  padding: 5% 15%;
+  margin: auto;
+  height: auto;
+  background-color: #181818;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ h2 {
+  color: #e1dccc;
+  text-align: left;
+  text-decoration: none;
+  font-family: trade-gothic-next, sans-serif;
+  font-weight: bold;
+  letter-spacing: 4;
+  font-size: calc(12px + .5vw);
+}
+
+p {
+  color: #e1dccc;
+  text-align: left;
+  font-family: COURIER;
+  font-size: calc(14px + .2vw);
+}
+
+a {
+  color: #687671;
+}
+
+a:hover {
+  color: #e1dccc;
+}

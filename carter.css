@@ -1,186 +1,96 @@
-/* TOP NAV MENU */
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: #687671;
-  overflow: hidden;
+body {
+  margin: 25%;
+  margin-top: 10%;
+  background-color: #e4e2da;
 }
-
-/* Topnav header style */
-.topnav h1 {
-  float: left;
-  margin: 1%;
-  letter-spacing: 5;
-font-family: trade-gothic-next, sans-serif;
-  font-weight: bold;
-  font-size: calc(32px + 0.75vw);
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  margin: 1%;
-  display: block;
-  color: #181818;
-  text-align: center;
-  padding: 14px 5%;
-  text-decoration: none;
-  font-family: COURIER;
-  font-size: calc(16px + .5vw);
-
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #e1dccc;
-  color: #181818;
-}
-
-/* Collapse topnav on small screen */
 
 @media screen and (max-width: 700px) {
 
-.topnav {
-    width: 100%;
-    height: auto;
-    position: relative;
-    padding-bottom: 15px;
-  }
-
-.topnav a {
-    text-align: center;
-    float: none;
-  }
-
-  .topnav h1 {
-      text-align: center;
-      float: none;
-    }
-}
-
-
-/* BODY */
-
 body {
-margin: auto;
-  background-color: #687671;
+  margin: 12%;
+  margin-top: 25%;
+  }
+
+  div.about {
+    width: 100%;
+  }
+
+    .about p {
+    font-size: 14px;
+  }
+
 }
 
-div.content {
+/* HOME */
+
+div.home {
   width: 90%;
-  padding-top: 3%;
-  margin: auto;
-}
-
-/* GALLERY GRID*/
-
-div.gallery {
-  margin: 1%;
-  padding: auto;
-  border: 0px;
-  background-color: #181818;
-  float: left;
-  width: 30%;
-}
-
-div.gallerynohover {
-  margin: 1%;
-  padding: auto;
-  border: 0px;
-  background-color: #181818;
-  float: left;
-  width: 35%;
-}
-div.gallerynohover img {
-  width: 96%;
-  padding: 2%;
-  margin: auto;
-  height: auto;
-}
-
-div.gallery:hover {
-  background-color: 464646;
-}
-
-div.gallery img {
-  width: 90%;
-  padding: 5%;
-  margin: auto;
-  height: auto;
-}
-
-div.desc {
-  color: #e1dccc;
   text-align: center;
-  padding: 11px;
-  text-decoration: none;
-  font-family: trade-gothic-next, sans-serif;
-  font-weight: bold;
-  letter-spacing: 3;
-  font-size: calc(12px + .5vw);
 }
 
-div.gallery a {
-  text-decoration: none;
-}
-
-/* Gallery and About Text */
-
-div.text {
-  margin: 1%;
-  padding: auto;
-  border: 0px;
-  float: left;
-  width: 55%;
-}
-
-div.text h2 {
-  color: #e1dccc;
-  text-align: left;
-  text-decoration: none;
-  font-family: trade-gothic-next, sans-serif;
-  font-weight: bold;
-  letter-spacing: 3;
-  font-size: calc(12px + .5vw);
-}
-
-div.text p {
-  color: #181818;
-  text-align: left;
-  font-family: COURIER;
-  font-size: calc(14px + .2vw);
-}
-
-div.text a {
-  color: #e1dccc;
-}
-
-div.text a:hover {
-  color: #464646;
-}
-
-@media only screen and (max-width: 700px) {
-  div.gallery {
-    width: 95%;
-    margin: auto;
-    margin-bottom: 5%;
+  .home h1 {
+    font-family: "coordinates-variable",sans-serif;
+    font-variation-settings: 'wght' 500;
+    color: #313e45;
+    font-size: calc(28px + 0.95vw);
   }
-  div.gallerynohover {
-    width: 95%;
-    margin: auto;
-    margin-bottom: 5%;
+
+  .home a {
+    font-family: "coordinates-variable",sans-serif;
+    font-variation-settings: 'wght' 500;
+    color: #313e45;
+    font-size: calc(14px + 0.95vw);
+    line-height: 120%;
   }
-  div.text {
-    width: 95%;
-    margin: auto;
-    margin-bottom: 5%;
+
+ /* ABOUT */
+
+  div.about {
+    width: 70%;
   }
+
+  .about h1  {
+    font-family: "coordinates-variable",sans-serif;
+    font-variation-settings: 'wght' 500;
+    text-align: center;
+    color: #313e45;
+  }
+
+  .about p {
+    font-family: "coordinates-variable",sans-serif;
+    font-variation-settings: 'wght' 300;
+    text-align: left;
+    color: #313e45;
+  }
+
+
+/* Photos */
+div.photo {
+  width: 100%;
 }
 
+.responsive {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+/* BUTTON HOME */
 
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.btn-bot{
+   position: fixed;
+   bottom: 5%;
+   right: 5%;
+   margin-left:-50px;
+   width:100px;
+   background-color: #313e45;
+   border: none;
+   border-radius: 8px;
+   color: #e4e2da;
+   font-family: "coordinates-variable",sans-serif;
+   font-variation-settings: 'wght' 500;
+   text-align: center;
 }

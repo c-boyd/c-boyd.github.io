@@ -12,7 +12,7 @@
   letter-spacing: 5;
 font-family: trade-gothic-next, sans-serif;
   font-weight: bold;
-  font-size: calc(32px + 0.75vw)
+  font-size: calc(32px + 0.75vw);
 }
 
 /* Style the links inside the navigation bar */
